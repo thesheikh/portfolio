@@ -3849,6 +3849,7 @@ h2.title {
     height: auto;
     position: relative;
     transform: translate(0%, 20%);
+    width: 100%;
 }
 
 .navbar-nav span {
