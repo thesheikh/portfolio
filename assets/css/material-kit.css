@@ -5783,13 +5783,13 @@ h2.title {
 }
 
 .fade-in.one {
-  -webkit-animation-delay: 0.4s;
-  -moz-animation-delay: 0.4s;
-  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.35s;
+  -moz-animation-delay: 0.35s;
+  animation-delay: 0.35s;
 }
 
 .fade-in.two {
-  -webkit-animation-delay: .9s;
-  -moz-animation-delay: .9s;
-  animation-delay: .9s;
+  -webkit-animation-delay: .7s;
+  -moz-animation-delay: .7s;
+  animation-delay: .7s;
 }
