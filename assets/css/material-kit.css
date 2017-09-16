@@ -3950,8 +3950,23 @@ h2.title {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
+.textcenter{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.pad1 {
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
 .cardcont {
     padding: 15px 30px;
+}
+
+.cardcont5 {
+    padding: 20px 30px;
+    opacity: 0.77;
 }
 
 .cardcont2 {
@@ -5060,6 +5075,21 @@ h2.title {
     margin-top: 30px;
 }
 
+.team-player3 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cardcont3 {
+    padding: 15px;
+    background: #fff;
+}
+
+.cardcont4 {
+    padding: 15px;
+}
+
 .team .team-player .title {
     margin: 30px auto;
 }
@@ -5113,6 +5143,7 @@ h2.title {
 .index-page .brand h1 {
     font-size: 4em;
     font-weight: 400;
+    line-height: 1.4em;
 }
 
 .index-page .brand h3 {
@@ -5455,7 +5486,7 @@ h2.title {
 
 .tz-gallery .lightbox img:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    *box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
 }
 
 .tz-gallery img {
