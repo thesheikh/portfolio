@@ -3973,6 +3973,12 @@ h2.title {
     padding: 30px 0px;
 }
 
+.cardcont6 {
+    padding: 30px 0px 5px 0px;
+    width: 60px;
+}
+
+
 .card .card-height-indicator {
     margin-top: 100%;
 }
