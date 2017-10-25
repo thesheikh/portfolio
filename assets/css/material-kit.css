@@ -4397,6 +4397,15 @@ hr.on-light {
     *-webkit-font-smoothing: auto;
 }
 
+.des2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    *-moz-osx-font-smoothing: auto;
+    *-webkit-font-smoothing: auto;
+}
+
 .des1 {
     font-size: 14px;
     line-height: 1.4;
@@ -5098,6 +5107,12 @@ h2.title {
 
 .cardcont4 {
     padding: 15px;
+}
+
+.cardcont5 {
+    padding: 7px;
+    font-weight: 600;
+    
 }
 
 .team .team-player .title {
