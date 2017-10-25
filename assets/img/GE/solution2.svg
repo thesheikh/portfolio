@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="908" height="375" viewBox="0 0 908 375">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="887" height="332" viewBox="0 0 887 332">
   <defs>
-    <polygon id="solution2-a" points="0 0 908 0 908 375 0 375"/>
+    <polygon id="solution2-a" points="0 0 918 0 918 394 0 394"/>
   </defs>
-  <g fill="none" fill-rule="evenodd">
+  <g fill="none" fill-rule="evenodd" transform="translate(-14 -31)">
     <mask id="solution2-b" fill="#fff">
       <use xlink:href="#solution2-a"/>
     </mask>
     <g mask="url(#solution2-b)">
-      <g transform="translate(-28 -80)">
-        <polygon fill="#FFF" fill-rule="nonzero" points="0 0 960 0 960 540 0 540"/>
+      <g transform="translate(-23 -69)">
+        <polygon points="0 0 960 0 960 540 0 540"/>
         <path fill="#8EC400" fill-rule="nonzero" d="M414.499985,100 L414.499985,100 C463.929462,100 504,140.07052 504,189.500002 C504,219.333334 504,249.166668 504,279 C474.166662,279 444.333323,279 414.499985,279 L414.499985,279 C365.070508,279 325,238.929487 325,189.500002 L325,189.500002 C325,140.070518 365.070507,100 414.499985,100 Z"/>
         <path fill="#3468BC" fill-rule="nonzero" d="M432.499985,432 L432.499985,432 C471.988336,432 504,399.988356 504,360.5 C504,336.666656 504,312.833322 504,289 C480.166661,289 456.333322,289 432.499985,289 L432.499985,289 C393.011634,289 361,321.011644 361,360.5 L361,360.5 C361,399.988359 393.011637,432 432.499985,432 Z"/>
         <path fill="#C00" fill-rule="nonzero" d="M614,229.5 L614,229.5 C614,256.838113 591.838065,279 564.5,279 C548,279 531.5,279 515,279 C515,262.5 515,246 515,229.5 L515,229.5 C515,202.161902 537.161935,180 564.5,180 L564.5,180 C591.838065,180 614,202.161902 614,229.5 L614,229.5 Z"/>
