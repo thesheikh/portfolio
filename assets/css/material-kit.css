@@ -4363,6 +4363,10 @@ hr.on-light {
     outline: 0;
 }
 
+.padd{
+    padding: 15px;
+}
+
 .full {
     background: #f6f6f6;
     width: 100%;
