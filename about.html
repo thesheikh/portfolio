@@ -432,5 +432,18 @@ I wield my UX design, UX research and Product Management experiences to solve co
         });
     </script>
 </body>
+    <script type="text/javascript">
+$(document).ready(function () {
+    //Disable cut copy paste
+    $('body').bind('cut copy paste', function (e) {
+        e.preventDefault();
+    });
+   
+    //Disable mouse right click
+    $("body").on("contextmenu",function(e){
+        return false;
+    });
+});
+</script>
 
 </html>

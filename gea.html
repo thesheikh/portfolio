@@ -475,7 +475,7 @@
                 <h6 class="sec-title"><b>Product Pitch</b></h6>
                 <h2 class="head1">View Full Presentation</h2>
                 <div class="video-container">
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vREmN1UFJIFLBqwHTXiDFvoSbeKaE0_IoO6THCk47O7UAA6YPzoPcafO8V2jgrFw6NlHAReDm3HRZjY/embed?start=false&loop=false&delayms=30000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQk3jgvnw5DEZYIvKyJaMSmwQlDT49cu6K0PUr33w5vxsFwuNXF5eEp14nh6j0jl1r2jdDgbMGHuyOp/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </div>
                 <div class="break"></div>
             </div>
@@ -668,6 +668,19 @@
     </script>
     <!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
     <script src="assets/js/material-kit.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(document).ready(function () {
+    //Disable cut copy paste
+    $('body').bind('cut copy paste', function (e) {
+        e.preventDefault();
+    });
+   
+    //Disable mouse right click
+    $("body").on("contextmenu",function(e){
+        return false;
+    });
+});
+</script>
 </body>
 
 </html>
