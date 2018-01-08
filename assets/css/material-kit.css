@@ -4123,6 +4123,7 @@ h2.title {
 
 .card-nav-tabs {
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 .card-nav-tabs .header {}
@@ -4445,7 +4446,7 @@ hr.on-light {
 }
 
 .blog {
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 3%;
 }
 
@@ -5006,7 +5007,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     font-weight: 200;
     color: #3C4858;
     line-height: 1.4em;
-    font-size: 4em;
+    font-size: 4.4em;
 }
 
 .subtitle {
