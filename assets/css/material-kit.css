@@ -3792,8 +3792,8 @@ h2.title {
 }
 
 .hero {
-    margin-top: 22vh;
-    margin-bottom: 10vh;
+    margin-top: 21vh;
+    margin-bottom: 8.5vh;
 }
 
 .cover {
@@ -5036,10 +5036,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .subtitle2 {
     margin-top: 18px;
     padding-bottom: 8px;
-    font-size: 3em;
+    font-size: 3.1em;
     line-height: 1.6em;
-    font-weight: 400;
-    letter-spacing: 0.6px;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 .ttext {
