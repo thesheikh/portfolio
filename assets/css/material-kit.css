@@ -3792,7 +3792,7 @@ h2.title {
 }
 
 .hero {
-    margin-top: 21vh;
+    margin-top: 20.5vh;
     margin-bottom: 8.5vh;
 }
 
@@ -4380,6 +4380,13 @@ hr.on-light {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.fullw {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
 
 .break {
     padding-top: 20px;
@@ -5025,6 +5032,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     font-size: 1.4em;
     line-height: 1.6em;
     color: #fff;
+}
+
+.red {
+    font-size: 0.8em;
+    font-weight: 800;
+    color: red;
+    letter-spacing: 0.6px;
 }
 
 .subtitle {
