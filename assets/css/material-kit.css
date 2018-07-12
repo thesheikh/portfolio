@@ -1207,7 +1207,7 @@ fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-upgrade.active {
 }
 
 .dot {
-    color: #d6d6d6;
+    color: #888;
     font-weight: 600;
 }
 
@@ -2682,22 +2682,21 @@ legend {
 .navbar .navbar-brand {
     position: relative;
     height: 50px;
-    line-height: 30px;
-    color: inherit;
-    padding: 10px 15px;
-    font-size: 1.5em;
+    width: 50px;
+    color: #1769ff;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.7px;
     margin-left: 0px !important;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+    padding: 13px;
 }
 
 .navbar .navbar-brand:hover,
-.navbar .navbar-brand:focus {
-    color: #1769ff;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-    background-color: transparent;
-}
+.navbar .navbar-brand:focus {}
 
 .navbar .navbar-text {
     color: inherit;
@@ -3199,8 +3198,7 @@ fieldset[disabled] .navbar .btn-link:focus {
     */
     }
     .navbar .navbar-brand {
-        height: 50px;
-        padding: 10px 15px;
+        margin-left: 10px !important;
     }
     .navbar .navbar-nav > li > a {
         padding-top: 15px;
@@ -3554,12 +3552,6 @@ h6,
     text-decoration: none;
 }
 
-.portitle {
-    font-weight: 600;
-    font-size: 1.5em;
-    letter-spacing: 0.2px;
-}
-
 .exptitle {
     font-weight: 600;
     font-size: 1.25em;
@@ -3793,8 +3785,8 @@ h2.title {
 }
 
 .hero {
-    margin-top: 14vh;
-    margin-bottom: 6.5vh;
+    margin-top: 13vh;
+    margin-bottom: 14vh;
 }
 
 .cover {
@@ -4390,11 +4382,11 @@ hr.on-light {
 
 
 .break {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .break2 {
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 
@@ -5019,16 +5011,29 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .foot {
     font-size: 13px;
     color: #777;
-    margin-top: 28px;
+    margin-top: 35px;
     font-weight: 500;
+    margin-bottom: 0px !important;
 }
 
 .title {
-    font-weight: 200;
-    color: #3C4858;
+    font-weight: 500;
+    color: #333333;
     line-height: 1.4em;
-    font-size: 4.6em;
+    font-size: 1.6em;
+    padding-bottom: 5px;
+    letter-spacing: 0.3px;
 }
+
+.subtitle2 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 3.4em;
+    line-height: 1.6em;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
 
 .title2 {
     margin-top: 15px;
@@ -5037,6 +5042,44 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     color: #fff;
     line-height: 1.4em;
     font-size: 3.8em;
+}
+
+.home-social-list {
+    position: absolute;
+    right: 0px;
+    top: 13vh;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 2.4rem;
+    line-height: 1.75;
+    text-align: center;
+}
+
+.home-social-list::before {
+    display: block;
+    content: "";
+    width: 2px;
+    height: 42px;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+}
+
+.home-social-list li {
+    padding-left: 0;
+}
+
+.home-social-list li a,
+.home-social-list li a:visited {
+    color: #000;
+}
+
+.home-social-list li a:hover,
+.home-social-list li a:focus,
+.home-social-list li a:active {
+    color: #000;
 }
 
 .subb {
@@ -5057,15 +5100,6 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     margin-top: 18px;
     font-size: 1.4em;
     line-height: 1.6em;
-}
-
-.subtitle2 {
-    margin-top: 10px;
-    padding-bottom: 10px;
-    font-size: 2.7em;
-    line-height: 1.6em;
-    font-weight: 500;
-    letter-spacing: 0.6px;
 }
 
 .ttext {
@@ -5105,6 +5139,39 @@ h2.title {
     font-size: 16px;
     line-height: 1.65;
 }
+
+.description2 {
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+.portitle {
+    font-size: 1.3em;
+    color: #3C4858;
+    letter-spacing: 0.15px;
+    line-height: 1.45em;
+}
+
+.underlined {
+    text-decoration: none;
+    flex: 1;
+    background-image: linear-gradient(to right, yellow 0, yellow 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: background 1s;
+}
+
+.underlined:hover {
+    background-size: 100% 100%;
+}
+
+.underlined--thin {
+    background-position: 0 0.75em;
+}
+
 
 .header-filter {
     position: relative;
