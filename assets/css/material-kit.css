@@ -1191,7 +1191,7 @@ fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-upgrade.active {
     margin-top: 30px;
     margin-bottom: 20px;
     font-weight: 500;
-    font-size: 1.18em;
+    font-size: 1.3em;
     line-height: 2em;
 }
 
@@ -2681,18 +2681,14 @@ legend {
 
 .navbar .navbar-brand {
     position: relative;
-    height: 50px;
-    width: 50px;
-    color: #1769ff;
-    font-size: 18px;
+    color: #333333;
+    font-size: 1.45em;
     font-weight: 500;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.8px;
     margin-left: 0px !important;
-    border-radius: 50%;
     text-align: center;
     display: inline-block;
-    font-weight: 600;
-    padding: 13px;
+    font-weight: 500;
 }
 
 .navbar .navbar-brand:hover,
@@ -3785,7 +3781,7 @@ h2.title {
 }
 
 .hero {
-    margin-top: 13vh;
+    margin-top: 15vh;
     margin-bottom: 14vh;
 }
 
@@ -5028,10 +5024,10 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .subtitle2 {
     margin-top: 10px;
     padding-bottom: 10px;
-    font-size: 3.4em;
+    font-size: 3.5em;
     line-height: 1.6em;
-    font-weight: 500;
-    letter-spacing: 0.2px;
+    font-weight: 400;
+    letter-spacing: -.009em;
 }
 
 
@@ -5149,7 +5145,7 @@ h2.title {
 
 
 .portitle {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #3C4858;
     letter-spacing: 0.15px;
     line-height: 1.45em;
