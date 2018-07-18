@@ -2689,10 +2689,13 @@ legend {
     text-align: center;
     display: inline-block;
     font-weight: 500;
+    transition:all 0.3s ease-in-out;
 }
 
 .navbar .navbar-brand:hover,
-.navbar .navbar-brand:focus {}
+.navbar .navbar-brand:focus {
+    color: #1769ff;
+}
 
 .navbar .navbar-text {
     color: inherit;
@@ -2708,7 +2711,7 @@ legend {
     font-size: 15px;
     text-transform: uppercase;
     border-radius: 3px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.75px;
     transition: color 0.2s ease-in-out;
 }
 
@@ -3782,7 +3785,7 @@ h2.title {
 
 .hero {
     margin-top: 16.5vh;
-    margin-bottom: 12.5vh;
+    margin-bottom: 12.25vh;
 }
 
 .cover {
@@ -5024,7 +5027,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .subtitle2 {
     margin-top: 10px;
     padding-bottom: 10px;
-    font-size: 3.5em;
+    font-size: 4em;
     line-height: 1.6em;
     font-weight: 400;
     letter-spacing: -.009em;
