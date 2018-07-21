@@ -3530,12 +3530,11 @@ h6,
 .footer-big h5,
 .footer-big h4,
 .media .media-heading {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .title,
 .title a,
-.card-title,
 .card-title a,
 .info-title,
 .info-title a,
@@ -3549,6 +3548,14 @@ h6,
 .media .media-heading a {
     color: #3C4858;
     text-decoration: none;
+}
+
+.card-title {
+    color: #3C4858;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 .exptitle {
