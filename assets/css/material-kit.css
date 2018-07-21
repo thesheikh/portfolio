@@ -4434,7 +4434,7 @@ hr.on-light {
     line-height: 1.7;
     font-weight: 600;
     margin: 10px auto;
-    letter-spacing: 0.35px;
+    letter-spacing: 0.2px;
     color: #333;
 }
 
@@ -5027,7 +5027,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 .subtitle2 {
     margin-top: 10px;
     padding-bottom: 10px;
-    font-size: 3.8em;
+    font-size: 3.94em;
     line-height: 1.6em;
     font-weight: 400;
     letter-spacing: -.009em;
