@@ -4439,11 +4439,12 @@ hr.on-light {
 }
 
 .head3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.7;
-    font-weight: 600;
-    letter-spacing: 0.2px;
+    font-weight: 400;
+    letter-spacing: -0.04px;
     color: #333;
+    padding-bottom: 5px;
 }
 
 .head1 {
@@ -5564,8 +5565,8 @@ h2.title {
 .timeline-title2 {
     margin-top: 0;
     color: inherit;
-    font-size: 1.25em;
-    font-weight: 500;
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
 .timeline-body > p,
