@@ -4425,6 +4425,14 @@ hr.on-light {
     *-webkit-font-smoothing: auto;
 }
 
+.des3 {
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 0px;
+    *-moz-osx-font-smoothing: auto;
+    *-webkit-font-smoothing: auto;
+}
+
 .quote {
     padding: 10px 20px;
     margin: 0 0 20px;
