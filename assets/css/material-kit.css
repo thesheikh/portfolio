@@ -5117,6 +5117,11 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     line-height: 1.6em;
 }
 
+.under {
+    color: #1769ff;
+    font-weight: 500;
+}
+
 .ttext {
     color: #1769ff;
     text-decoration: none;
