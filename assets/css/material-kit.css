@@ -5485,7 +5485,7 @@ h2.title {
 
 .timeline {
     list-style: none;
-    padding: 20px 0 20px;
+    padding: 0px 0 0px;
     position: relative;
 }
 
@@ -5501,7 +5501,7 @@ h2.title {
 }
 
 .timeline > li {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     position: relative;
 }
 
