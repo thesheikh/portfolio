@@ -15,6 +15,7 @@
     <!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/material-kit.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105315795-1"></script>
@@ -32,6 +33,11 @@
 </head>
 
 <body class="index-page">
+    
+    <div class="progress-container">
+        <div class="progress-bar2" id="myBar"></div>
+    </div>
+    
     <!-- Navbar -->
     <nav class="navbar navbar-transparent navbar-absolute">
         <div class="container">
@@ -70,8 +76,8 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="brand2">
-                            <h1 class="title2">Merit-Based Incentive Payment System</h1>
-                            <h3 class="subb">Modernizing Medicare to provide better care and smarter spending</h3>
+                            <h1 class="title2" data-aos="fade-up">Merit-Based Incentive Payment System</h1>
+                            <h3 class="subb" data-aos="fade-up" data-aos-delay="400">Modernizing Medicare to provide better care and smarter spending</h3>
                         </div>
                     </div>
                 </div>
@@ -192,13 +198,13 @@
                 <p class="des"> The users of this tool are <b>Quality Improvement Advisors (QIA).</b> QIA's acts as an internal consultant and resource to a health organization with the goal of driving improvement in quality, cost efficiency and patient satisfaction. They gather, compile and analyze clinical reports, identify gaps / strengths & make appropriate recommendations for corrective actions.
                 </p>
                 <div class="row">
-                <div class="col-md-12" style="padding: 0px;">
-                <img class="fullwidth" src="assets/img/mips/user.jpg">
-                </div>
+                    <div class="col-md-12" style="padding: 0px;">
+                        <img class="fullwidth" src="assets/img/mips/user.jpg">
                     </div>
+                </div>
                 <h6 class="sec-title"><b>User Research</b></h6>
                 <h2 class="head1">Interviews + Observation</h2>
-                <p class="des"> I collaborated with the researchers and domain experts in the team to understand our core users, their environment, and majors tasks to accomplish. We interviewed few participants and gathered data on their current workflow and major challenges. This data helped us in finding opportunites to solve the problems. 
+                <p class="des"> I collaborated with the researchers and domain experts in the team to understand our core users, their environment, and majors tasks to accomplish. We interviewed few participants and gathered data on their current workflow and major challenges. This data helped us in finding opportunites to solve the problems.
                 </p>
             </div>
             <div class="col-md-10 col-md-offset-1">
@@ -330,13 +336,13 @@
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-                <h6 class="sec-title"><b>Design Goal</b></h6>
-                <h2 class="head1">Reframing the problem</h2>
-                <p class="quote">How might we empower Quality Improvement Advisors to gather, compile, and analyze clinical reports, so that they can quickly make appropriate recommendations for corrective actions?</p>
+            <h6 class="sec-title"><b>Design Goal</b></h6>
+            <h2 class="head1">Reframing the problem</h2>
+            <p class="quote">How might we empower Quality Improvement Advisors to gather, compile, and analyze clinical reports, so that they can quickly make appropriate recommendations for corrective actions?</p>
             <div class="break"></div>
-                    </div>
         </div>
-    
+    </div>
+
     <div class="row full" style="padding-bottom: 0px; margin-top: 20px">
         <div class="container">
             <div class="col-md-8 col-md-offset-2" id="insights">
@@ -473,19 +479,19 @@
             <div class="col-md-11" style="margin: auto;padding-left: 0;padding-right: 0;float: none;">
                 <div class="col-md-4">
                     <p><b>Version 1</b></p>
-                        <img class="fullw" src="assets/img/mips/Dashboard1.svg">
+                    <img class="fullw" src="assets/img/mips/Dashboard1.svg">
                     <p class="red">ISSUES</p>
                     <p>Repetitive links and buttons on dashboard<br>Not showing scores of report</p>
                 </div>
                 <div class="col-md-4">
                     <p><b>Version 2</b></p>
-                        <img class="fullw" src="assets/img/mips/Dashboard2.svg">
+                    <img class="fullw" src="assets/img/mips/Dashboard2.svg">
                     <p class="red">ISSUES</p>
                     <p>Long dashboard page with too much data<br>Users probably switch between 2-3 reports</p>
                 </div>
                 <div class="col-md-4">
                     <p><b>Version 3</b></p>
-                        <img class="fullw" src="assets/img/mips/Dashboard3.svg">
+                    <img class="fullw" src="assets/img/mips/Dashboard3.svg">
                     <p class="red">ISSUES</p>
                     <p>Side navigation leaves less space for long tables<br>Scores are the not user’s first priority</p>
                 </div>
@@ -517,33 +523,33 @@
                 <div class="col-md-12">
                     <div class="col-md-6">
                         <p class="des"><b>1. Dashboard</b>
-                        <img class="fullw" src="assets/img/mips/Dashboard%202.svg">
-                            </p>
+                            <img class="fullw" src="assets/img/mips/Dashboard%202.svg">
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <p class="des"><b>2. Create Report</b>
-                        <img class="fullw" src="assets/img/mips/Create%20Report.svg">
-                            </p>
+                            <img class="fullw" src="assets/img/mips/Create%20Report.svg">
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <p class="des"><b>3. All Reports</b>
-                        <img class="fullw" src="assets/img/mips/allreports.svg">
-                            </p>
+                            <img class="fullw" src="assets/img/mips/allreports.svg">
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <p class="des"><b>4. View ACI Data</b>
-                        <img class="fullw" src="assets/img/mips/ACI%20View%20.svg">
-                            </p>
+                            <img class="fullw" src="assets/img/mips/ACI%20View%20.svg">
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <p class="des"><b>5. What-if Analysis</b>
-                        <img class="fullw" src="assets/img/mips/What-if.svg">
-                            </p>
+                            <img class="fullw" src="assets/img/mips/What-if.svg">
+                        </p>
                     </div>
                     <div class="col-md-6">
                         <p class="des"><b>6. Scorecard</b>
-                        <img class="fullw" src="assets/img/mips/ACI%20Provider%20Score%20Copy.svg">
-                            </p>
+                            <img class="fullw" src="assets/img/mips/ACI%20Provider%20Score%20Copy.svg">
+                        </p>
                     </div>
                 </div>
             </div>
@@ -751,6 +757,29 @@
         });
     </script>
 
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out',
+            duration: 600,
+            once: true,
+        });
+    </script>
+    
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+
     <!-- Start of StatCounter for Default Guide -->
     <script type="text/javascript">
         var sc_project = 11628552;
@@ -758,11 +787,10 @@
         var sc_security = "d88c3762";
     </script>
     <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
-    <noscript><div class="statcounter"><a title="Web Analytics"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11628552/0/d88c3762/1/" alt="Web
-Analytics"></a></div></noscript>
+    <noscript>
+        <div class="statcounter"><a title="Web Analytics" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11628552/0/d88c3762/1/" alt="Web
+Analytics"></a></div>
+    </noscript>
     <!-- End -->
 
 </body>

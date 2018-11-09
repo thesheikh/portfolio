@@ -1482,9 +1482,11 @@ fieldset[disabled] .checkbox input[type=checkbox],
     0% {
         box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 15px 2px 0 11px;
     }
+
     50% {
         box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px 2px 0 11px;
     }
+
     100% {
         box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
     }
@@ -1494,9 +1496,11 @@ fieldset[disabled] .checkbox input[type=checkbox],
     0% {
         opacity: 0;
     }
+
     50% {
         opacity: 0.2;
     }
+
     100% {
         opacity: 0;
     }
@@ -1506,9 +1510,11 @@ fieldset[disabled] .checkbox input[type=checkbox],
     0% {
         opacity: 0;
     }
+
     50% {
         opacity: 0.2;
     }
+
     100% {
         opacity: 0;
     }
@@ -1736,9 +1742,11 @@ fieldset[disabled] .form-group.is-focused .radio label {
     0% {
         opacity: 0;
     }
+
     50% {
         opacity: 0.2;
     }
+
     100% {
         opacity: 0;
     }
@@ -1748,9 +1756,11 @@ fieldset[disabled] .form-group.is-focused .radio label {
     0% {
         opacity: 0;
     }
+
     50% {
         opacity: 0.2;
     }
+
     100% {
         opacity: 0;
     }
@@ -1775,12 +1785,14 @@ output {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
+
     input[type="date"].form-control,
     input[type="time"].form-control,
     input[type="datetime-local"].form-control,
     input[type="month"].form-control {
         line-height: 36px;
     }
+
     input[type="date"].input-sm,
     .input-group-sm input[type="date"],
     input[type="time"].input-sm,
@@ -1791,6 +1803,7 @@ output {
     .input-group-sm input[type="month"] {
         line-height: 24px;
     }
+
     input[type="date"].input-lg,
     .input-group-lg input[type="date"],
     input[type="time"].input-lg,
@@ -2689,7 +2702,7 @@ legend {
     text-align: center;
     display: inline-block;
     font-weight: 500;
-    transition:all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar .navbar-brand:hover,
@@ -2795,28 +2808,34 @@ legend {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
     .navbar .navbar-nav .open .dropdown-menu > .dropdown-header {
         border: 0;
         color: inherit;
     }
+
     .navbar .navbar-nav .open .dropdown-menu .divider {
         border-bottom: 1px solid;
         opacity: 0.08;
     }
+
     .navbar .navbar-nav .open .dropdown-menu > li > a {
         color: inherit;
     }
+
     .navbar .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar .navbar-nav .open .dropdown-menu > li > a:focus {
         color: inherit;
         background-color: transparent;
     }
+
     .navbar .navbar-nav .open .dropdown-menu > .active > a,
     .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
         color: inherit;
         background-color: transparent;
     }
+
     .navbar .navbar-nav .open .dropdown-menu > .disabled > a,
     .navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
     .navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -3196,9 +3215,11 @@ fieldset[disabled] .navbar .btn-link:focus {
         }
     */
     }
+
     .navbar .navbar-brand {
         margin-left: 10px !important;
     }
+
     .navbar .navbar-nav > li > a {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -3269,6 +3290,7 @@ fieldset[disabled] .navbar .btn-link:focus {
         visibility: hidden;
         display: block;
     }
+
     .dropdown.open .dropdown-menu {
         opacity: 1;
         visibility: visible;
@@ -3791,8 +3813,8 @@ h2.title {
 }
 
 .hero {
-    margin-top: 16.5vh;
-    margin-bottom: 12.25vh;
+    margin-top: 17vh;
+    margin-bottom: 12vh;
 }
 
 .cover {
@@ -5430,6 +5452,7 @@ h2.title {
         height: auto;
         min-height: 100vh;
     }
+
     .landing-page .header .container {
         padding-bottom: 70px;
     }
@@ -5443,11 +5466,13 @@ h2.title {
         float: none !important;
         width: 100%;
     }
+
     .navbar.navbar-transparent {
         background-color: #fff;
         padding-top: 25px;
         border-radius: 0;
     }
+
     .main-raised {
         margin-left: 10px;
         margin-right: 10px;
@@ -5604,31 +5629,38 @@ h2.title {
         padding-left: 0%;
         padding-right: 0%;
     }
+
     .right {
         text-align: left;
     }
+
     ul.timeline:before {
         left: 40px;
     }
+
     ul.timeline > li > .timeline-panel {
         width: calc(100% - 90px);
         width: -moz-calc(100% - 90px);
         width: -webkit-calc(100% - 90px);
     }
+
     ul.timeline > li > .timeline-badge {
         left: 30px;
         margin-left: 0;
         top: 16px;
     }
+
     ul.timeline > li > .timeline-panel {
         float: right;
     }
+
     ul.timeline > li > .timeline-panel:before {
         border-left-width: 0;
         border-right-width: 15px;
         left: -15px;
         right: auto;
     }
+
     ul.timeline > li > .timeline-panel:after {
         border-left-width: 0;
         border-right-width: 14px;
@@ -5971,6 +6003,7 @@ h2.title {
 }
 
 @media only screen and (min-width: 768px) {
+
     .touch .cd-nav-trigger,
     .touch #cd-vertical-nav {
         bottom: 40px;
@@ -5984,6 +6017,7 @@ h2.title {
         opacity: 0;
         transform: translate3d(0, 70%, 0);
     }
+
     to {
         opacity: 1;
         transform: none;
@@ -5995,6 +6029,7 @@ h2.title {
         opacity: 0;
         transform: translate3d(0, 70%, 0);
     }
+
     to {
         opacity: 1;
         transform: none;
@@ -6006,6 +6041,7 @@ h2.title {
         opacity: 0;
         transform: translate3d(0, 70%, 0);
     }
+
     to {
         opacity: 1;
         transform: none;
@@ -6045,4 +6081,20 @@ h2.title {
     .subtitle2 {
         font-size: 2em;
     }
+}
+
+
+.progress-container {
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    position: fixed;
+    z-index: 10000000;
+}
+
+.progress-bar2 {
+    height: 4px;
+    background: #1769ff;
+    width: 0%;
+    z-index: 10000000;
 }

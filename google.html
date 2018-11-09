@@ -33,6 +33,11 @@
 </head>
 
 <body class="index-page">
+    
+    <div class="progress-container">
+        <div class="progress-bar2" id="myBar"></div>
+    </div>
+    
     <!-- Navbar -->
     <nav class="navbar navbar-transparent navbar-absolute">
         <div class="container">
@@ -71,8 +76,8 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="brand2">
-                            <h1 class="title2">Google UX Internship</h1>
-                            <h3 class="subb">Building a new product with Google hardware design team</h3>
+                            <h1 class="title2" data-aos="fade-up">Google UX Internship</h1>
+                            <h3 class="subb" data-aos="fade-up" data-aos-delay="400">Building a new product with Google hardware design team</h3>
                         </div>
                     </div>
                 </div>
@@ -174,7 +179,7 @@
                 <div class="sharing-area text-center sec-title">
                     <h6 style="padding-top: 20px;"><b>Team Photo</b></h6>
                 </div>
-                <img class="fullwidth" data-aos="fade-in" src="assets/img/Google/team.jpg">
+                <img class="fullwidth" data-aos="fade-right" data-aos-delay="300" src="assets/img/Google/team.jpg">
             </div>
         </div>
     </div>
@@ -289,10 +294,24 @@
     <script src="assets/js/aos.js"></script>
     <script>
         AOS.init({
+            easing: 'ease-in-out',
             duration: 600,
-            delay: 400,
             once: true,
         });
+    </script>
+    
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
     </script>
 
     <!-- Start of StatCounter for Default Guide -->

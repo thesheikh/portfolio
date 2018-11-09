@@ -15,6 +15,7 @@
     <!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/material-kit.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105315795-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -30,6 +31,11 @@
 </head>
 
 <body class="index-page">
+    
+    <div class="progress-container">
+        <div class="progress-bar2" id="myBar"></div>
+    </div>
+    
     <!-- Navbar -->
     <nav class="navbar navbar-transparent navbar-absolute">
         <div class="container">
@@ -68,8 +74,8 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="brand2">
-                            <h1 class="title2">Fella Mobile App</h1>
-                            <h3 class="subb">A smart and simple personal Assistant for new international students</h3>
+                            <h1 class="title2" data-aos="fade-up">Fella Mobile App</h1>
+                            <h3 class="subb" data-aos="fade-up" data-aos-delay="400">A smart and simple personal Assistant for new international students</h3>
                         </div>
                     </div>
                 </div>
@@ -230,7 +236,7 @@
                             <div class="card2">
                                 <img src="assets/img/fella/per2.jpg" alt="Thumbnail Image" class="img-raised img-circle">
                                 <div class="cardcont">
-                                    <h4 class="head2">Winnie Juan<br/>
+                                    <h4 class="head2">Winnie Juan<br />
                                         <small class="text-muted">China</small>
                                     </h4>
                                     <p>"English being my second language I don't feel very confident about it due to which I tend to participate less in group projects, discussions and collaborative work. Also, I love dancing but don't know where could I find a dance group or event in this city."</p>
@@ -243,7 +249,7 @@
                             <div class="card2">
                                 <img src="assets/img/fella/per1.jpg" alt="Thumbnail Image" class="img-raised img-circle">
                                 <div class="cardcont">
-                                    <h4 class="head2">Samar Gupta<br/>
+                                    <h4 class="head2">Samar Gupta<br />
                                         <small class="text-muted">India</small>
                                     </h4>
                                     <p>"After coming to the US my first priority is to get the basic steps done such as finding a house, local mobile connection, bank account, university formalities etc. I feel confused about where to start and constantly look for help from other people."</p>
@@ -696,6 +702,29 @@
         });
     </script>
 
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out',
+            duration: 600,
+            once: true,
+        });
+    </script>
+    
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+
     <!-- Start of StatCounter for Default Guide -->
 
     <script type="text/javascript">
@@ -704,11 +733,10 @@
         var sc_security = "d88c3762";
     </script>
     <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
-    <noscript><div class="statcounter"><a title="Web Analytics"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11628552/0/d88c3762/1/" alt="Web
-Analytics"></a></div></noscript>
+    <noscript>
+        <div class="statcounter"><a title="Web Analytics" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11628552/0/d88c3762/1/" alt="Web
+Analytics"></a></div>
+    </noscript>
     <!-- End -->
 
 </body>

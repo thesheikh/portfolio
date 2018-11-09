@@ -15,6 +15,7 @@
     <!-- CSS Files -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/material-kit.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105315795-1"></script>
     <script>
@@ -31,6 +32,12 @@
 </head>
 
 <body class="index-page">
+    
+    <div class="progress-container">
+        <div class="progress-bar2" id="myBar"></div>
+    </div>
+
+    
     <!-- Navbar -->
     <nav class="navbar navbar-transparent navbar-absolute">
         <div class="container">
@@ -45,7 +52,7 @@
             <div class="collapse navbar-collapse" id="navigation-example">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href=index.html><span>Projects</span></a>
+                        <a href=index.html><span>Work</span></a>
                     </li>
 
 
@@ -69,8 +76,8 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="brand2">
-                            <h1 class="title2">Amazon Go Plus</h1>
-                            <h3 class="subb">Redefining grocery shopping experience using augmented reality.</h3>
+                            <h1 class="title2" data-aos="fade-up">Amazon Go Plus</h1>
+                            <h3 class="subb" data-aos="fade-up" data-aos-delay="400">Redefining grocery shopping experience using augmented reality.</h3>
                         </div>
                     </div>
                 </div>
@@ -587,6 +594,29 @@
             });
         });
     </script>
+    
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out',
+            duration: 600,
+            once: true,
+        });
+    </script>
 
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
@@ -595,11 +625,10 @@
         var sc_security = "d88c3762";
     </script>
     <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
-    <noscript><div class="statcounter"><a title="Web Analytics"
-href="http://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="//c.statcounter.com/11628552/0/d88c3762/1/" alt="Web
-Analytics"></a></div></noscript>
+    <noscript>
+        <div class="statcounter"><a title="Web Analytics" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="//c.statcounter.com/11628552/0/d88c3762/1/" alt="Web
+Analytics"></a></div>
+    </noscript>
     <!-- End -->
 
 </body>
