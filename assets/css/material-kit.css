@@ -4394,7 +4394,7 @@ hr.on-light {
     width: 100%;
     padding-top: 25px;
     padding-bottom: 35px;
-    
+
 }
 
 .fullblue {
@@ -5078,6 +5078,13 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     z-index: 5;
 }
 
+.headerr {
+    min-height: 100vh;
+    background: #000;
+    background-size: cover;
+    z-index: 5;
+}
+
 .main {
     background: #FFFFFF;
     position: relative;
@@ -5124,6 +5131,17 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     color: #fff;
     line-height: 1.4em;
     font-size: 3.8em;
+}
+
+.title3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: #fff;
+    padding-top: 40vh;
+    line-height: 1.5em;
+    font-size: 3em;
+    text-align: left;
 }
 
 .home-social-list {
@@ -5317,7 +5335,7 @@ h2.title {
     text-align: left;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     background: #fff;
 }
 
