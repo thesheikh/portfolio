@@ -940,6 +940,15 @@ iframe {
   width: 100%;
 }
 
+@media only screen and (max-width:580px) {
+ .cover {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  transform: scale(1.12);
+    }
+}
+
 ::-moz-selection {
   background: transparent;
   color: #f7541b;
@@ -4339,7 +4348,7 @@ li:nth-child(4) .menu-list__item span {
 }
 @media only screen and (max-width: 580px) {
   .footer {
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 100%;
   }
 }
