@@ -1043,29 +1043,28 @@ iframe {
     visibility: hidden;
   }
 }
+
 .loading .progress-bar {
-  background-color: #110f10;
-  height: 100%;
-  left: 0px;
+  background-color: rgba(255, 255, 255, 0.15);
+  height: 1px;
   overflow: hidden;
-  position: absolute;
-  top: 0;
-  transition: all 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  width: 0;
-  z-index: 2;
-}
-.loading .progress-bar::before {
-  content: '';
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
   margin: auto;
-  position: fixed;
+  position: absolute;
+  top: 6.5rem;
+  bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
-  animation: replacement-logo 0s 1s ease both;
+  width: 18rem;
+  z-index: 2;
 }
+.loading .progress-bar span {
+  display: block;
+  background-color: #fff;
+  height: 100%;
+  transition: all 2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  width: 0;
+}
+
 
 @keyframes blur-logo {
   0% {

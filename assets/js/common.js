@@ -32,7 +32,7 @@ $(document).ready(function() {
         }, 3000);
     }).progress(function(a, i) {
         var n = 100 * (t = ++e / b);
-        $('.progress-bar').css('width', n + '%')
+        $('.progress-bar span').css('width', n + '%')
     });
 
 
