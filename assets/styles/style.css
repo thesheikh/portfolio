@@ -65,6 +65,8 @@
 @import url(videojs-skin.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 @import url(../icons/fonticons.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 /* -----------------------------------------------------------------
     - General Styles
 ----------------------------------------------------------------- */
@@ -95,7 +97,7 @@ body, html {
 body {
   background-color: #fff;
   color: #110f10;
-  font-family: "Roboto", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   line-height: 2;
   -ms-overflow-style: scrollbar;
@@ -294,7 +296,7 @@ input:-webkit-autofill:active {
   color: #110f10;
   display: inline-flex;
   align-items: center;
-  font-weight: 500;
+  font-weight: 700;
   position: relative;
   text-decoration: none;
 }
@@ -547,7 +549,7 @@ button:focus {
     - Typography
 ----------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 3.4rem;
@@ -658,10 +660,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .title--display {
-  font-size: 4rem;
-  letter-spacing: -0.1rem;
+  font-size: 3.6rem;
   margin-bottom: 1.3rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
 }
 @media only screen and (max-width: 1000px) {
@@ -696,7 +697,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .title--subtitle {
-  font-family: "Roboto", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 @media only screen and (max-width: 580px) {
   .title--subtitle {
@@ -714,7 +715,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .title--overhead {
   color: #8d99a7;
-  font-family: "Roboto", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-size: .87rem;
   font-weight: 400;
   letter-spacing: .1rem;
@@ -2464,7 +2465,7 @@ iframe {
 }
 .overlay::before, .overlay--45::before, .overlay--80::before {
   content: '';
-  background-color: rgba(17, 15, 16, 0.35);
+  background-color: rgba(17, 15, 16, 0.50);
   position: absolute;
   top: 0;
   left: 0;
@@ -2672,7 +2673,7 @@ iframe {
   }
 }
 .itemCard__title {
-  font-family: "Roboto", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
   margin-bottom: .8rem;
 }
@@ -3456,7 +3457,7 @@ iframe {
 }
 .page-nav .btn-link {
   font-size: .93rem;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 768px) {
@@ -3592,7 +3593,7 @@ iframe {
   -ms-flex-direction: column;
   flex-direction: column;
   justify-content: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "DM Sans", sans-serif;
   flex: 1;
   list-style: none;
   margin-bottom: 0;
